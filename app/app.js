@@ -1,5 +1,4 @@
 import Txt from '../models/txt';
-// require('../models/txt.js');
 
-var txt = new txt();
+var txt = new Txt();
 console.log(txt)

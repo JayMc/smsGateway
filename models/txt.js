@@ -1,12 +1,8 @@
 class Txt {
 	constructor() {
-		this.message;
+		this.message = 'blah';
 
 	}
 }
 
-// es6
 export default Txt;
-
-// es5
-// module.exports = 'sdfsad';
