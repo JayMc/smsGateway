@@ -15,5 +15,6 @@ module.exports = {
 			}
 			}
 		]
-	}
+	},
+	target: 'node'
 }

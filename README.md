@@ -8,6 +8,11 @@ The API provides an end point to send a text message and execute queries on hist
 # gettings started
 * git clone https://github.com/JayMc/smsGateway.git
 * webpack
+* npm start
+
+# run tests
+* ```npm test```
+It should build a test bundle into build/testBundle.js then run it through mocha
 
 # setup Pi
 Compatible 3g modems can be found from $10-$30 like the Huawei e173 or e220.
