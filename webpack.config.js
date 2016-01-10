@@ -7,12 +7,17 @@ module.exports = {
 	},
 	module: {
 		loaders: [
-			{ test: /(\.es6$|\.js$)/,
-			loader: 'babel',
-			exclude: /(node_modules|bower_componets)/,
-			query: {
-				presets: ['es2015']
-			}
+			{
+				test: /(\.es6$|\.js$)/,
+				loader: 'babel',
+				exclude: /(node_modules|bower_componets)/,
+				query: {
+					presets: ['es2015']
+				}
+			},
+			{
+				test: /\.json$/,
+				loader: "json-loader"
 			}
 		]
 	},
