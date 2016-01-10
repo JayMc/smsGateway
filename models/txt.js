@@ -1,6 +1,10 @@
 class Txt {
-	constructor() {
+	constructor () {
 		this.message;
+		this.recipient;
+		this.sender;
+		this.dateSent;
+		this.dateReceived;
 	}
 
 	validate () {
