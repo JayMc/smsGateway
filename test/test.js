@@ -37,6 +37,8 @@ describe('Account', function(){
 describe('Utils', function(){
 	it('should return a random number', function(){
 		var u = new Utils();
-		expect(u.generateRandom(16)).to.be.not.empty
+		var length = 16;
+		expect(u.generateRandom(length)).to.be.not.empty
+		expect(u.generateRandom(length)).to.have.length(length)
 	})
 })
